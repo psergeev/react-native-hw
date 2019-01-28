@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import LoginScreen from './screens/Login/LoginScreen';
-import ProductScreen from './screens/Product/ProductScreen';
 import ProductsScreen from './screens/Products/ProductsScreen';
 
 interface Props {
@@ -24,7 +23,7 @@ export default class App extends Component<Props, State> {
         if (!this.state.showProductScreen) {
             screen = <LoginScreen onFormSubmit={() => this.showProductScreen()}/>;
         } else {
-            screen = <ProductScreen/>;
+            screen = <ProductsScreen/>;
         }
 
         return (screen);
