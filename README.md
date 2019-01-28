@@ -1,4 +1,4 @@
-React native HW
+React native HW 1
 
 ![Login](https://raw.githubusercontent.com/psergeev/react-native-hw/hw1/demo/login.png)
 
